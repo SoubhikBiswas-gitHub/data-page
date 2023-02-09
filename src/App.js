@@ -1,23 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
+import DataAnalyticsTest from './DataAnalyticsTest/DataAnalyticsTest';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DataAnalyticsTest name={"Soubhik"} testAttempted={true} testFail={false} testPass={true} testReattempted={false} isSessionBooked={false}/>
     </div>
   );
 }
